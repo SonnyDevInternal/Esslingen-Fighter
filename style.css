@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e4e6e7;
+    background-image: url("assets/FantasyBackground.jpeg");
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu
+{ 
+    display: "none";
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    
+    border-radius: 4px;
+
+    width: 60%;
+    height: 90vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.74);
+
+    outline-style: solid;
+    outline-color: black;
+}
+
+#hText
+{
+    color: rgba(255, 255, 255, 0.87);
+    user-select: none;
+    margin-top: 0%;
+    background-color: rgba(170, 170, 170, 0.74);
+
+    outline-style: solid;
+    outline-color: black;
+}
+
+
+.OptionsBtn
+{
+    background: rgb(255, 255, 255);
+    outline-color: rgb(0, 196, 16);
+    width: 60%;
+    height: 10vh;
+
+    margin-top: 5px;
+}
+
+#stGm_Text
+{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 100%;
+    height: 95%;
+}
+
+#stGm_Text:hover
+{
+    background: rgb(209, 208, 208);
+}
+
+#CreditsMenu
+{
+    display: none;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    
+    border-radius: 25px;
+
+    width: 60%;
+    height: 90vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    justify-content: center;
+
+    background-color: white;
+
+    outline-style: solid;
+    outline-color: black;
+}
+
+#hText1
+{
+    margin-top: 0%;
+    margin-right: 0%;
+
+    text-align: center;
+
+    position: fixed;
+}
+
+#exitCr
+{
+    width: 6%;
+    height: 6vh;
+    position: fixed;
+
+    margin-left: 54%;
+    border-radius: 25px;
+}
+
+#exitCr:hover
+{
+    background: rgb(255, 55, 55);
+}
+
+.devShow
+{
+    background-color: rgb(209, 209, 209);
+
+    width: 25%;
+    height: 42vh;
+
+    margin-right: 4%;
+
+    margin-top: 20%;
+    border-radius: 3px;
+}
+
+.devShowName
+{
+    color: white;
+    text-align: center;
+    
+    height: 6vh;
+    margin-top: 0%;
+}
+
+.devShowProfil
+{
+    height: 82%;
+    width: 95%;
+
+    margin-left: 2.5%;
+    margin-top: -20%;
+
+    background-size: 100% 100%; 
+}
+
+.devShowDetails
+{
+  margin-right: 0%;
+  margin-top: 2%;
+  border-radius: 3px;
+
+  font-size: 28px;
+
+  color: white;
+}
+
+
+#MainWebsite
+{
+    background: rgb(18, 4, 139);
+
+    width: 80%;
+    height: 200vh;
+
+    margin-left: 10%;
+    position: fixed;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+
+    text-align: center;
+
+    outline-color: black; 
+    outline-style: solid;
+}
+
+.ImagePadder
+{
+    height: 20%;
+    width: 25%;
+
+    background: rgb(8, 1, 107);
+
+    outline-color: black; 
+    outline-style: solid;
+}
+
+.ImageHolder
+{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+#GoToGameBtn
+{
+    width: 30%;
+    height: 4%;
+
+    margin-top: 15%;
+    border-radius: 3px;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+
+    background-color: rgb(7, 255, 110);
+}
